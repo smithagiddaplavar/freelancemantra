@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sacramento">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <title></title>
+  </head>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $(".mbtns").click(function(){
+        $(".rows").show();
+        $(".rows").addClass(".rows");
+        $("button.mbtns").replaceWith( "<button class=\'lbtns\'type=\'button\'>Less</button>").addClass(".lbtns");
+      })
+      $(".pbtn").click(function(){
+        $(".forms").show();
+
+      })
+
+    })
+  </script>
+  <body>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-custom">
+      <a href="#main" class="navbar-brand">FreelanceMantra</a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navcollapse" aria-control="navcollapse" aria-expanded="false" aria-label="Toggle naviagtion" type="button" name="button">
+      <i class="fa fa-bars"></i></button>
+      <div class="collapse navbar-collapse" id="navcollapse">
+        <ul class="navbar-nav ml-auto smooth-scroll">
+          <li class="nav-item"><a href="jobs.html" class="nav-link">Jobs</a></li>
+          <li class="nav-item"><a href="login.html" class="nav-link"><i class="fa fa-user"></i> Sign In</a></li>
+
+        </ul>
+      </div>
+
+  </nav>
+
+  <div class="container-fluid main" id="main">
+<div class="padding">
+    <h1>FreelanceMantra</h1>
+    <p>We aim to provide freelancers and entrepreneurs a platform where they can find work, get path to succeed in their life.</p>
+
+  </div>
+  </div>
+</header>
+<div class="container-fluid work" id="how">
+<div class="padding">
+  <h2>How it Works</h2>
+  <div class="padding">
+  <div class="row">
+    <div class="col-sm-3">
+      <img src="img/job.png" class="card-img"alt="">
+      <h4>Post a Job</h4>
+      <p>Post Jobs for free and start recieving requests for jobs.</p>
+    </div>
+    <div class="col-sm-3">
+      <img src="img/hire.png" class="card-img"alt="">
+      <h4>Hire Freelancer</h4>
+      <p>Compair all freelancer and choose the best one.</p>
+    </div>
+    <div class="col-sm-3">
+      <img src="img/list.png" class="card-img"alt="">
+      <h4>Get Work Done</h4>
+      <p>Assign the work and time to freelancer and get it done.</p>
+    </div>
+    <div class="col-sm-3">
+      <img src="img/secure.png" class="card-img"alt="">
+      <h4>Make Payment</h4>
+      <p>Choose multiple ways to make payments.</p>
+    </div>
+
+  </div>
+  </div>
+</div>
+</div>
+<div class="container-fluid categories" id="cat">
+  <div class="padding">
+    <h2>Categories</h2>
+    <div class="padding">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="cards">
+          <img class="card-img" src="img/food.jpg"  alt="">
+          <p class="centered">Food Recipies</p>
+        </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="cards">
+          <img class="card-img" src="img/web.png"  alt="">
+          <p class="centered">Web Development</p>
+        </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="cards">
+          <img class="card-img" src="img/graphic.jpg"  alt="">
+          <p class="centered">Graphic Designing</p>
+        </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="cards">
+          <img class="card-img" src="img/writter.jpg"  alt="">
+          <p class="centered">Content Writting</p>
+        </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="cards">
+          <img class="card-img" src="img/car.jpg"  alt="">
+          <p class="centered">Car Accessories</p>
+        </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="cards">
+          <img class="card-img" src="img/books.jpg"  alt="">
+          <p class="centered">Books</p>
+        </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="cards">
+          <img class="card-img" src="img/digital.jpg"  alt="">
+          <p class="centered">Digital Marketing</p>
+        </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="cards">
+          <img class="card-img" src="img/startup.jpg"  alt="">
+          <p class="centered">Start up</p>
+        </div>
+        </div>
+      </div>
+      <div class="rows">
+      <div class="row">
+        <div class="col-sm-3">
+          <div class="cards">
+          <img class="card-img" src="img/hack.jpg"  alt="">
+          <p class="centered">Ethical Hacking</p>
+        </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="cards">
+          <img class="card-img" src="img/mobile.jpg"  alt="">
+          <p class="centered">Mobile Accessories</p>
+        </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="cards">
+          <img class="card-img" src="img/furniture.png"  alt="">
+          <p class="centered">Furnituring</p>
+        </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="cards">
+          <img class="card-img" src="img/software.jpg"  alt="">
+          <p class="centered">Testing</p>
+        </div>
+        </div>
+      </div>
+      </div>
+
+      <button class="mbtns"type="button" name="button">More</button>
+
+
+
+    </div>
+  </div>
+</div>
+<div class="container-fluid postjob">
+  <div class="padding">
+  <h2>Need a Freelancer?</h2>
+  <div class="padding">
+  <button class="pbtn" type="button" name="button">Post a Job</button>
+</div>
+<div class="forms">
+  <form class="" action="index.html" method="post">
+    <h5>Job Name</h5><br>
+    <input class="jobn" type="text" name="" value=""><br>
+    <h5>Job Description</h5><br>
+    <input class="jobd" type="text" name="" value=""><br>
+    <button class="mbtns" type="button" name="button">Submit</button>
+  </form>
+</div>
+</div>
+</div>
+<div class="conatiner-fluid contacts">
+  <div class="padding">
+  <div class="row">
+    <div class="col-sm-6 crow">
+      <h5>Company</h5>
+      <a href="#main">About</a>
+      <a href="#how">How it Work's</a>
+      <a href="#cat">Categories</a>
+    </div>
+    <div class="col-sm-6 crow">
+      <h5>Contact</h5>
+      <a href="https://www.instagram.com/freelancemantra/" target="_blank"><i class="fa fa-instagram" aria-hidden="true" style="color:#EE0475 ;"></i></a>
+      <a href="https://www.facebook.com/freelancemantra" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true" style="color:#133EAB ;"></i></a>
+      <a href="https://twitter.com/freelancemantra" target="_blank"><i class="fa fa-twitter" aria-hidden="true" style="color:#06AAFE  ;"></i></a>
+    </div>
+    </div>
+  </div>
+
+    </div>
+
+  </body>
+</html>
